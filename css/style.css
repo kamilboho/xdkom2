@@ -30,12 +30,10 @@
 html {
   scroll-behavior: smooth;
 }
-
 .body-background {
   background: url(/img/cool-background.svg);
   background-size: cover;
 }
-
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -44,35 +42,12 @@ body {
   color: rgb(0, 0, 0);
 }
 /* welcome */
-/* .line div {
-  margin: 0 0.2rem;
-}
-
-.line div:nth-child(1),
-.line div:nth-child(3) {
-  height: 3px;
-  width: 100%;
-  max-width: 100px;
-  background: #00ddec;
-  border-radius: 5px;
-}
-
-.line {
-  display: flex;
-  align-items: center;
-}
-
-.line div:nth-child(2) {
-  width: 10px;
-  height: 10px;
-  background: #000000c7;
-  border-radius: 50%;
-} */
 #promotion-text {
   text-align: center;
   margin-bottom: 2%;
   margin-top: -7%;
 }
+
 #welcome-main {
   position: absolute;
   text-align: center;
@@ -99,10 +74,18 @@ body {
   margin-top: -8px;
 }
 .menu-main li a {
-  color: #ffffff;
-  background-color: #141414;
+  display: flex;
+  flex-direction: row;
   text-decoration: none;
   cursor: pointer;
+  border-right: 1px solid rgb(8, 8, 8);
+  font-size: 16px;
+  padding: 8px 0px;
+  color: #ffffff;
+  background-color: #131313;
+}
+.menu-main li a i {
+  margin-right: 10px;
 }
 .menu-main li a:hover {
   background-color: #222222;
@@ -126,15 +109,15 @@ body {
 img.logo.xKom {
   margin-left: 10%;
 }
-
-nav ul li a i {
-  margin-left: 160px;
+.wrap-header i {
+  margin-bottom: 5px;
 }
 .wrap-header {
   color: #fff;
+  margin-right: 12px;
 }
 .wrap-header:hover {
-  color: #ffffff86;
+  color: #37FFE5;
 }
 .logo {
   width: 360px;
@@ -144,10 +127,10 @@ nav ul li a i {
   height: auto;
   transition: 0.2s;
 }
-
 .logo:hover {
   opacity: 0.7;
 }
+
 header {
   position: absolute;
   display: flex;
@@ -185,6 +168,8 @@ header ul li {
 
 header ul li a {
   position: relative;
+  /* display: flex;
+  flex-direction: row; */
   color: #000000;
   text-shadow: 5px 5px 42px rgb(255, 255, 255);
   margin: 0 15px;
@@ -199,7 +184,7 @@ header.sticky ul li a {
 }
 
 header.sticky ul li a:hover {
-  text-shadow: 5px 5px 42px rgb(132, 35, 243);
+  color: #13b83c;
 }
 
 header a {
