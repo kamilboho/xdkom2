@@ -242,7 +242,9 @@ li i {
 /* BACKGROUND - HEADER */
 .shadow-light header {
   transition: 0.4s !important;
-  background-color: #212529 !important;
+}
+.shadow-light header.sticky a{
+  color: #fff;
 }
 /* "P" - KARTY */
 .shadow-light .container-card .card .content p {

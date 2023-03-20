@@ -1,6 +1,6 @@
 document.body.style = "background-color: var(--bs-dark);transition: 0.5s;";
 const sun = "/img/sun.svg";
-const moon = "/img/moon.svg";
+const moon = "/img/moon_2.svg";
 
 var theme = "dark";
 const root = document.querySelector(":root");
