@@ -271,16 +271,16 @@ li i {
 .shadow-light .container-cardk .cardk{
   background-color: #5b636b3f;
 }
-.shadow-light .container-cardk .cardk .content .nazwa h2 a {
+.shadow-light .container-cardk .cardk .contentk .nazwa h2 a {
   color: #fff;
 }
-.shadow-light .container-cardk .cardk .content .nazwa p {
+.shadow-light .container-cardk .cardk .contentk .nazwa p {
   color: #fff;
 }
 .shadow-light #new-promo {
   text-shadow: 2px 2px 12px #b85013;
 }
-.shadow-light .container-cardk .cardk .content .cena h3 {
+.shadow-light .container-cardk .cardk .contentk .cena h3 {
   text-shadow: 2px 2px 12px #13b83c;
 }
 .shadow-light .page_nr {
