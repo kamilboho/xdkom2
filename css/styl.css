@@ -31,11 +31,15 @@
   height: 40px;
   width: 160px;
   transition: 0.2s;
+    font-size: 13px;
 }
 .shopButton:hover {
   box-shadow: 2px 2px 24px #a2b3a0;
   transition: 0.2s;
   cursor: pointer;
+}
+.shopButton i{
+  margin-right: 5px;
 }
 .krotkitext {
   font-size: 17px;
